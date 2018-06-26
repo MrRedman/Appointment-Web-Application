@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DiaryModelStoreContainer" CdmEntityContainer="DiaryContainer">
+    <EntitySetMapping Name="AppointDiaries">
+      <EntityTypeMapping TypeName="DiaryModel.AppointDiary">
+        <MappingFragment StoreEntitySet="AppointDiary">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="SomeImportantKey" ColumnName="SomeImportantKey" />
+          <ScalarProperty Name="DateTimeSchedule" ColumnName="DateTimeSchedule" />
+          <ScalarProperty Name="AppointmentLength" ColumnName="AppointmentLength" />
+          <ScalarProperty Name="StatuENUM" ColumnName="StatuENUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
